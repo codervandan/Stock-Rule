@@ -1,70 +1,76 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #0d0d0d;
-  color: #00ffcc;
+  background-color: #0b0b0b;
+  color: #e2e2e2;
+  font-family: 'Poppins', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
+  flex-direction: column;
+  margin: 0;
 }
 
 h1 {
-  color: #00ffee;
+  color: #00ffff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 8px #00ffff;
 }
 
 .calculator {
-  background: #1a1a1a;
+  background: #111;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 0 20px #00ffcc44;
-  width: 300px;
+  box-shadow: 0 0 15px #00ffff33;
+  width: 320px;
 }
 
 label {
   display: block;
-  margin-top: 15px;
-  color: #ccc;
+  margin: 10px 0 5px;
 }
 
 input {
   width: 100%;
   padding: 8px;
-  border: none;
+  background: #1a1a1a;
+  border: 1px solid #333;
   border-radius: 8px;
-  margin-top: 5px;
-  background: #262626;
   color: #fff;
-  font-size: 1em;
+  text-align: right;
 }
 
 button {
-  width: 100%;
   margin-top: 20px;
-  padding: 10px;
-  font-size: 1em;
-  background: #00ffcc;
+  width: 100%;
+  background: #00ffff;
   color: #000;
   border: none;
+  padding: 10px;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
 }
 
 button:hover {
-  background: #00ffaa;
+  background: #00cccc;
 }
 
-.result {
+.results {
   margin-top: 20px;
   text-align: center;
   font-size: 1.1em;
 }
 
 .pass {
-  color: #00ff99;
+  color: #00ff88;
+  font-weight: bold;
+  text-shadow: 0 0 8px #00ff88;
 }
 
 .fail {
-  color: #ff3366;
+  color: #ff004c;
+  font-weight: bold;
+  text-shadow: 0 0 8px #ff004c;
 }
